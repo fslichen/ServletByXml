@@ -9,6 +9,6 @@ import javax.servlet.http.HttpServletResponse;
 @SuppressWarnings("serial")
 public class Application extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-		response.sendRedirect("http://www.baidu.com");
+		response.sendRedirect("http://fskxjs.fanya.chaoxing.com");
 	}
 }
